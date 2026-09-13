@@ -1,129 +1,65 @@
-# Financial Assistant App - Business Analysis Portfolio Project
+# Financial Assistant App
 
-## 📌 Project Overview
+## Overview
 
-This repository contains comprehensive Business Analysis documentation for a **Personal Financial Management App** – a Smart Academy IT Business Analysis capstone project. The project solves the problem of scattered financial data by integrating multiple Georgian bank accounts (TBC, BOG, Liberty) via Open Banking APIs, utilizing AI for transaction categorization (≥85% accuracy), and providing real-time budget control with personalized insights.
+Comprehensive Business Analysis documentation for a consolidated personal financial management platform integrating multiple Georgian banking systems (TBC, BOG, Liberty) via Open Banking APIs. The system leverages AI-driven transaction categorization and real-time budget management to address fragmented personal finance workflows.
 
-**Problem:**
-- Financial data scattered across 3+ banking apps
-- Manual expense categorization (time-consuming)
-- Budget control only happens at month-end
+**Problem Statement:**
+Financial data fragmentation across multiple banking applications limits user visibility and control. Manual expense tracking and month-end budget reviews create gaps in real-time financial awareness.
 
-**Solution:**
-- Unified dashboard with all banks in one place
-- AI-powered auto-categorization
-- Real-time budget alerts & insights
+**Core Solution:**
+Multi-bank account aggregation with automated expense categorization, real-time budget tracking, and AI-powered financial insights through a unified platform.
 
 ---
 
-## 🛠 Tools & Techniques Used
+## Methodology & Tools
 
-### Business Analysis
-* **Requirements Engineering:** BPMN 2.0, Use Cases, User Stories (12 stories), Acceptance Criteria (BDD/Gherkin)
-* **Strategic Analysis:** Business Model Canvas, Fishbone (Ishikawa) Diagram, User Personas (5 personas)
-* **Stakeholder Management:** RACI Matrix (11 stakeholders), Communication Plan (12 channels)
+**Analysis & Requirements:**
+BPMN 2.0 process modeling, Use Case analysis, User Story decomposition (BDD format), Stakeholder mapping (RACI), Business Model Canvas
 
-### Agile & Project Management
-* **Jira Software:** Epic mapping, User Story decomposition, Release planning (3 releases)
-* **Backlog Refinement:** MoSCoW prioritization (MUST/SHOULD/NICE TO HAVE)
-* **Roadmapping:** 3-release timeline (MVP → Advanced → Vision)
+**Project Management:**
+Jira for backlog management and release planning. Three-release roadmap with MoSCoW prioritization.
 
-### Process & Technical
-* **BPMN 2.0:** AS-IS (current 3-bank manual process) & TO-BE (automated consolidated platform)
-* **Use Cases:** 8 core use cases with actor interactions
-* **Success Metrics:** 8 KPIs with measurement methods
+**Deliverables:**
+12 user stories with acceptance criteria and scenario mapping, BPMN AS-IS/TO-BE diagrams, Use Case specification, 5 user personas, Stakeholder communication plan.
 
 ---
 
-## 📂 Key Artifacts
+## Documentation
 
-### 📄 **Full Documentation**
-[Read the Complete BA Documentation (42 pages PDF)](./FINANCIAL_ASSISTANT_APP_DOCUMENTATION.pdf)
+Complete BA documentation (42 pages) includes:
+- Problem statement and business case
+- Business Model Canvas with financial projections (₾1M annual budget, break-even at 5,555 Premium users)
+- User personas and stakeholder analysis (11 stakeholders, RACI matrix)
+- Detailed requirements: 12 user stories with BDD scenarios, business rules, acceptance criteria
+- Process modeling: BPMN AS-IS/TO-BE diagrams, Use Case specification
+- Release planning and success metrics (8 KPIs)
 
-**Contents:**
-- Executive Summary & Problem Statement
-- Business Model Canvas (5 customer segments, ₾1M budget, break-even analysis)
-- Fishbone Analysis (5-dimension problem mapping)
-- 5 User Personas (IT Specialist, Freelancer, Family, Student, Business Owner)
-- Stakeholders & RACI Matrix (11 stakeholders × 35 tasks)
-- 12 Detailed User Stories with Acceptance Criteria & Edge Cases
-- BPMN Diagrams (AS-IS & TO-BE processes)
-- Use Case Diagram (8 use cases)
-- User Story Map & 3-Release Roadmap
-- Key Metrics & Success Criteria
+[Full Documentation](./FINANCIAL_ASSISTANT_APP_DOCUMENTATION.pdf)
 
----
+## Key Requirements
 
-## 📊 Process Modeling
+- **User Stories:** 12 BDD-format stories with acceptance criteria and scenario mapping (US-01 through US-12)
+- **Process Models:** BPMN swimlane diagrams (AS-IS current state, TO-BE target state), 8 use cases
+- **Personas:** 5 user segments representing diverse financial management needs and behaviors
+- **Epics:** 5 feature areas (Onboarding, Banking, Analytics, Budget & Goals, Notifications)
+- **Release Plan:** 3-phase roadmap with MoSCoW prioritization and success metrics
 
-* **BPMN 2.0 Diagrams:** AS-IS (current 3-bank manual process) & TO-BE (automated consolidated platform)
-* **Use Case Diagram:** 8 core use cases mapping user interactions with Bank System & AI Engine
+## Success Criteria
 
-Detailed process analysis and visual diagrams available in [Portfolio Repository](https://github.com/NinoZavrashvili/nino-zavrashvili-ba-portfolio).
+| Metric | Target | Method |
+|--------|--------|--------|
+| AI Accuracy | ≥85% | User re-categorization rate |
+| Sync Performance | ≤5 minutes | Transaction consolidation time |
+| Retention (30-day) | ≥60% | User activity tracking |
+| Premium Conversion | ≥15% | Subscription funnel |
+| App Rating | ≥4.5/5 | App Store feedback |
 
----
+## References
 
-## 💻 Agile Setup in Jira
-
-All 12 user stories (with BDD scenarios, 3 scenarios each) and 5 epics are managed in Jira with release planning and sprint tracking.
-
-**Features:**
-* **Release Timeline:** 3-release roadmap (MVP → Advanced → Vision) with MoSCoW prioritization (MUST/SHOULD/NICE TO HAVE)
-* **User Stories:** BDD format with acceptance criteria, edge cases, and scenario mapping (US-01 through US-12)
-* **Kanban Board:** Sprint planning with story pointing and continuous backlog refinement
-
-See [Jira Project Board](https://ninozavrashvili.atlassian.net/jira/software/projects/KAN/boards/2) and [Portfolio Repository](https://github.com/NinoZavrashvili/nino-zavrashvili-ba-portfolio) for complete Agile artifacts.
+[Full Documentation](./FINANCIAL_ASSISTANT_APP_DOCUMENTATION.pdf) | [Project Board](https://ninozavrashvili.atlassian.net/jira/software/projects/KAN/boards/2) | [Repository](https://github.com/NinoZavrashvili/nino-zavrashvili-ba-portfolio)
 
 ---
 
-## 🎯 Deliverables Summary
-
-| Artifact | Count | Status |
-|----------|-------|--------|
-| Business Analysis Documents | 11 major artifacts | ✅ Complete |
-| User Stories (BDD Format) | 12 stories × 3 scenarios each | ✅ Complete |
-| BPMN Diagrams | 2 (AS-IS & TO-BE) | ✅ Complete |
-| User Personas | 5 detailed personas | ✅ Complete |
-| Stakeholder Mappings | 11 stakeholders, 35 tasks | ✅ Complete |
-| Epics & Release Planning | 5 Epics, 3 Releases | ✅ Complete |
-| Success Metrics | 8 KPIs with measurement | ✅ Complete |
-
----
-
-## 📈 Key Business Metrics
-
-| Metric | Target | Measurement |
-|--------|--------|-------------|
-| AI Categorization Accuracy | ≥85% | Database logs (re-categorizations) |
-| Transaction Sync Time | ≤5 minutes | APM monitoring (AWS CloudWatch) |
-| User Retention (30-day) | ≥60% | Product Analytics (Mixpanel) |
-| Free-to-Premium Conversion | ≥15% | Funnel analysis |
-| Break-even Users | 5,555 Premium | Financial modeling |
-| App Rating | ≥4.5 stars | App Store & Google Play |
-
----
-
-## 🔗 Links & Resources
-
-* **Full Documentation:** [FINANCIAL_ASSISTANT_APP_DOCUMENTATION.pdf](./FINANCIAL_ASSISTANT_APP_DOCUMENTATION.pdf)
-* **Jira Project Board:** [Financial Assistant App Kanban](https://ninozavrashvili.atlassian.net/jira/software/projects/KAN/boards/2)
-* **Portfolio:** [Nino Zavrashvili – BA Portfolio](https://github.com/NinoZavrashvili/nino-zavrashvili-ba-portfolio)
-
----
-
-## 👤 About
-
-**Prepared by:** Nino Zavrashvili  
-**Role:** Junior Business Analyst | Smart Academy  
-**Certification:** IIBA-endorsed IT Business Analysis (BPMN 2.0, Agile BA, User Stories)  
-**Date:** April 2026  
-**Status:** ✅ Approved for Development Phase
-
-**Contact:**
-- 📧 Email: ninozavrashvili@gmail.com
-- 🔗 LinkedIn: [Nino Zavrashvili](https://www.linkedin.com/in/nino-zavrashvili-431ab311a)
-- 📍 Location: Tbilisi, Georgia
-
----
-
-*This portfolio project demonstrates end-to-end Business Analysis capabilities including requirements engineering, Agile backlog management, process modeling, and stakeholder coordination for a real-world fintech application.*
+Author: Nino Zavrashvili  
+[LinkedIn](https://www.linkedin.com/in/nino-zavrashvili-431ab311a) | ninozavrashvili@gmail.com | Tbilisi, Georgia
